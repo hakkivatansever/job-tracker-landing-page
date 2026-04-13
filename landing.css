@@ -43,5 +43,97 @@ body {
 
 .nav-links a:hover { color: #e2e8f0}
 
+.btn-nav{
+    padding:8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
 
+}
 
+.btn-nav-primary{
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.btn-nav-primary:hover {background: #0ea5e9 !important;}
+
+/* HERO DESIGN */
+
+.hero{
+
+    padding: 100px 24px 80px;
+    text-align: center;
+}
+
+.hero-inner{ max-width: 800px; margin: 0 auto}
+
+.badge{
+    display: inline-block;
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #38bdf8;
+    padding:6px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    margin-bottom: 28px;
+}
+
+.hero h1{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: #f1f5f9;
+    
+}
+
+.highlight{ color: #38bdf8;}
+
+.hero-sub{
+    font-size: 18px;
+    color:#94a3b8;
+    max-width: 560px;
+    margin: 0 auto 36px;
+    line-height: 1.6;
+}
+
+.hero-cta{
+    display: flex;
+    gap:16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.btn-primary-lg{
+    background: #38bdf8;
+    color: #0f172a;
+    padding:14px 28px;
+    border-radius:10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    transition: backgroung 0.2s;
+}
+
+.btn-primary-lg:hover{background: #0ea5e9;}
+
+.btn-secondary-lg{
+    background: #1e293b;
+    color: #e2e8f0;
+    padding:14px 28px;
+    border-radius:10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #334155;
+    transition: backgroung 0.2s;
+}
+
+.btn-secondary-lg:hover{background: #334155;}
+
+.hero-note{
+    color: #475569;
+    font-size: 13px;
+}
