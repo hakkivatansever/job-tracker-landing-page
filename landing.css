@@ -224,3 +224,51 @@ body {
 .features-card p { color: #64748b; font-size: 14px; line-height: 1.6; }
 
 /* FEATURE END */
+
+    /* HOW IT WORKS START */
+
+    .how{
+        background: #1e293b;
+        padding: 80px 24px;
+        border-top: 1px solid #334155;
+        border-bottom: 1px solid #334155 ;
+    }
+
+    .steps{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-top: 48px;
+    }
+
+    .step {
+        background: #0f172a;
+        border: 1px solid #334155;
+        border-radius: 16px;
+        padding: 32px 28px;
+        text-align: center;
+        max-width: 260px;
+        height: 220px;
+    }
+
+    .step-num {
+        width: 48px;
+        height: 48px;
+        background: #38bdf8;
+        color: #0f172a;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 16px;
+    }
+
+    .step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #f1f5f9; }
+    .step p { color: #64748b; font-size: 13px; line-height: 1.6; }
+    .step-arrow { font-size: 28px; color: #334155; }
+
+    /* HOW IT WORKS END */
