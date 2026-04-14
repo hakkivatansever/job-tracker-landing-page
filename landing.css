@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #0f172a;
+    background: #0f172a; 
     color: #e2e8f0;
 }
 
@@ -11,7 +11,7 @@ body {
 .navbar {
     position: sticky;
     top: 0;
-    background: rgba(202, 154, 13, 0.95);
+    background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid #1e293b;
     z-index: 100;
@@ -25,6 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 
 }
 
@@ -32,13 +34,21 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: #38bdf8;
+    
 }
 
 .nav-links{
-    color:blue;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;  
+}
+
+.nav-links a{
+    
+    text-decoration:none;
     font-size: 14px;
     transition: color 0.2s;
+    color: #94a3b8;
 }
 
 .nav-links a:hover { color: #e2e8f0}
@@ -53,10 +63,10 @@ body {
 
 .btn-nav-primary{
     background-color: #38bdf8;
-    color: #0f172a;
+    color: #0f172a !important;
 }
 
-.btn-nav-primary:hover {background: #0ea5e9 !important;}
+.btn-nav-primary:hover {background: #0ea5e9;}
 
 /* HERO DESIGN */
 
@@ -324,3 +334,16 @@ body {
 .footer-links a:hover { color: #94a3b8; }
 
 /* FOOTER END */
+
+/* RESPONSIVE START */
+
+/* RESPONSIVE */
+
+ @media (max-width: 768px) {
+    .hero h1 { font-size: 36px; }
+    .nav-links a:not(.btn-nav) { display: none; }
+    .step-arrow { display: none; }
+    .steps { flex-direction: column; align-items: center; }
+} 
+
+/* RESPONSIVE END */
