@@ -221,20 +221,22 @@ body {
     color: #f1f5f9;
 }
 
-.features-card p { color: #64748b; font-size: 14px; line-height: 1.6; }
+.features-card p { color: #64748b; font-size: 14px; line-height: 1.6; 
+
+}
 
 /* FEATURE END */
 
-    /* HOW IT WORKS START */
-
-    .how{
+/* HOW IT WORKS START */
+    
+.how {
         background: #1e293b;
         padding: 80px 24px;
         border-top: 1px solid #334155;
         border-bottom: 1px solid #334155 ;
     }
 
-    .steps{
+.steps {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -243,7 +245,7 @@ body {
         margin-top: 48px;
     }
 
-    .step {
+.step {
         background: #0f172a;
         border: 1px solid #334155;
         border-radius: 16px;
@@ -253,7 +255,7 @@ body {
         height: 220px;
     }
 
-    .step-num {
+.step-num {
         width: 48px;
         height: 48px;
         background: #38bdf8;
@@ -267,8 +269,32 @@ body {
         margin: 0 auto 16px;
     }
 
-    .step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #f1f5f9; }
-    .step p { color: #64748b; font-size: 13px; line-height: 1.6; }
-    .step-arrow { font-size: 28px; color: #334155; }
+.step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #f1f5f9; }
+.step p { color: #64748b; font-size: 13px; line-height: 1.6; }
+.step-arrow { font-size: 28px; color: #334155; }
 
-    /* HOW IT WORKS END */
+/* HOW IT WORKS END */
+
+/* CTA START */
+
+.cta-section{
+        padding: 100px 24px;
+        text-align: center;
+    }
+
+.cta-inner { max-width: 600px; margin: 0 auto; }
+
+.cta-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #f1f5f9;
+    }
+
+.cta-section p {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 32px;
+    }  
+
+ /* CTA END */
