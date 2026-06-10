@@ -61,9 +61,9 @@ body {
 
 }
 
-.btn-nav-primary{
+.btn-nav.btn-nav-primary{
     background-color: #38bdf8;
-    color: #0f172a !important;
+    color: #0f172a;
 }
 
 .btn-nav-primary:hover {background: #0ea5e9;}
